@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test2 </title>
-    <style>
+<html>
+    <head>
+        <title>Test2 </title>
+        <style>
         .container{
             width: 100%;
             height: 100%;
@@ -19,80 +17,85 @@
         }
         .logo{
             position: absolute;
-            padding-left: 130px;
+            /* padding-left: px; */
             width: 30%;
         }
         .img{
             position: absolute;
             padding: 20px;
-            margin: 20px;
+            margin-left: 20px;
         }
         .text{
-            margin-left: 400px;
-            padding-top: 50px;
+            margin-left: 220px;
+            padding-top: 50px 0 50px 0;
         }
         .nav{
             position: absolute;
             background-color: darkblue;
             height: 10%;
             width: 100%;
-            top: 130px;
+            top: 120px;
             left: 0;
-            padding: 1px;
         }
-        ul{
-            padding-left: 140px;
-
-        }
-        ul li{
-            float: left;
+        ul{ 
+            color: brown;
+            margin-left: 140px;
             list-style: none;
+        }
+        li{
+            float: left;
             padding: 10px;
+            font-weight: bold;
         }
         .mainbody{
             position: absolute;
-            height: 70%;
+            height: 90%;
             width: 100%;
-            top: 200px;
+            top: 190px;
             left: 0;
             background-color: bisque;
+        }
+        p{
+            margin-left: 30px;
+            text-align: left;
+            font-size: 20px;
+            color: black;
         }
         .footer{
             position: fixed;
             width: 100%;
-            height: 10%;
             bottom: 0;
             left: 0;
             background-color: cadetblue;
             color: darkblue;
             text-align: center;
         }
-    </style>
-</head>
-<body>
-<div class="container">
-  <div class="header">
-    <div class="logo">
-        <img src="image/clock.jpg" width="150px"  height="80px" class="img">
-    </div>
-    <div class="text">
-        <h3>Pre_Intern Course For Web Development</h3>
-    </div>
-  </div>
-  <div class="nav">
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Courses</li>
-        <li>Contact Us</li>
-    </ul>
-  </div> 
-  <div class="mainbody">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, blanditiis est officiis ratione mollitia assumenda alias itaque, deserunt voluptatibus incidunt nemo optio vitae in aut porro modi totam facere.</p>
-  </div>
-  <div class="footer">
-    Copyright
-  </div>
-</div> 
-</body>
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="image/clock.jpg" width="150px"  height="80px" class="img">
+                </div>
+            <div class="text">
+                <h1>Pre_Intern Course For Web Development</h1>
+            </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Courses</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div> 
+            <div class="mainbody">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab, blanditiis est officiis ratione mollitia assumenda alias itaque, deserunt voluptatibus incidunt nemo optio vitae in aut porro modi totam facere.</p>
+            </div>
+            <div class="footer">
+                Copyright
+            </div>
+        </div> 
+    </body>
 </html>
