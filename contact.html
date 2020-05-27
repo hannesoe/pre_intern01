@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Contact</title>
+        <style>
+            .container{
+            width: 100%;
+            height: 100%;
+        }
+        .header{
+            position: absolute;
+            background-color: darkblue;
+            float: left;
+            width: 100%;
+            height: 20%;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .logo1{
+            position: absolute;
+            width: 20%;
+            margin-left: 150px;
+            padding-top: 25px;
+        }
+        .title{
+            position: absolute;
+            margin-left: 350px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        .logo2{
+            position: absolute;
+            margin-left: 1050px;
+            padding-top: 30px;
+            width: 20%;
+        }
+        .l1,.l2{
+            padding-top: 30px;
+        }
+        .navbar{
+            position: absolute;
+            width: 100%;
+            /* background-color:  rgb(143, 238, 255); */
+            height: 10%;
+            top: 145px;
+            left: 0;
+        }
+        .u1{
+            list-style: none;
+            margin-left: 150px;
+        }
+        .nav{
+            text-align: center;
+            float: left;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+        .mainbody{
+            position: absolute;
+            width: 70%;
+            height: 100%;
+            
+        }
+        .contact{
+            position: absolute;
+            padding: 20px;
+            margin-left: 180px;
+            width: 55%;
+            height: 100%;
+            top: 200px;
+            
+        }
+        .getin{
+            position: absolute;
+            padding: 20px;
+            margin-left: 850px;
+            width: 25%;
+            height: 100;
+            top: 250px;
+            line-height: 50px;
+            
+        }
+        .form{
+            position: absolute;
+            width: 100%;
+        }
+        #name,#email,#sub,#message{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+        }
+        .footer{
+            position: fixed;
+            width: 100%;
+            /* height: 6%; */
+            bottom: 0;
+            left: 0;
+            padding-top: 10px;
+            background-color: rgb(19, 8, 70);
+            color: rgb(207, 209, 73);
+            text-align: center;
+        }
+        </style>
+    </header>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo1">
+                    <img src="image\logo1.jpg" width="90px" class="l1">
+                </div>
+                <div class="title">
+                   <h2 style="color: rgb(255, 239, 8);">University Journal of ICT in Mlitidisciplinary Issues on Arts & Science,</h2>
+                   <h3 style="color:  rgb(255, 239, 8)">Engineering, Economics and Education (Volume-1)</h3>
+                </div>
+                <div class="logo2">
+                    <img src="image/logo2.png" width="200px" class="l2">
+                </div>
+            </div>
+            <div class="navbar">
+                <ul class="u1">
+                    <li><a href="assignment1.html" class="nav">Home</a></li>
+                    <li><a href="Topic.html" class="nav">Topic</a></li>
+                    <li><a href="Paper.html" class="nav">Call For Papers</a></li>
+                    <li><a href="Editorial.html" class="nav">Editorial Board</a></li>
+                    <li><a href="Download.html" class="nav">Download Session</a></li>
+                    <li><a href="contact.html" class="nav">Contact us</a></li>
+                </ul>  
+            </div>
+            <div class="mainbody">
+                <div class="contact">
+                   <h2 style="font-size: 30px;">Contact Us</h2><hr> 
+                   <p>
+                    Tel : +95 9-794065357,9-421037973<br>
+                    Email : journal@ucsh.edu.mm<br>
+                    Website : ujim-ucsh.org
+                   </p>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60830.2045723122!2d95.44041053864255!3d17.655473000000008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x840980a557818237!2sUniversity%20of%20Computer%20Studies!5e0!3m2!1sen!2smm!4v1590511461898!5m2!1sen!2smm" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="getin">
+                    <h2 style="font-size: 30px;">Get in Touch</h2>
+                    <form class="form">
+                        <label for="name">Your Name (required)</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Your Email (required)</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="sub">Subject</label><br>
+                        <input type="text" id="sub" name="sub"><br>
+                        <label for="message">Your Message</label><br>
+                        <input type="text" id="message" name="message"><br>
+                        <button style="height: 40px; width: 25%;">Send</button>
+                    </form> 
+                </div>
+            </div>
+            <div class="footer">
+                © UJIM - 2020
+            </div>
+        </div>
+    </body>
+</html>
